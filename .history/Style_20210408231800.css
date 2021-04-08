@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Bagian Pertama */
+#pertama{
+    background: url(G:/Project/Assets/Office-Desk-SplitShire-3D-0008.jpg) no-repeat;
+    background-size: cover;
+    height: 650px;
+    padding-top: 20px;
+}
+
+.konten{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.colom_3{
+    width: 300px;
+    float: left;
+}
+
+.colom_3_tengah{
+    margin: 0 30px;
+}
+
+.clear{
+    clear
+}
