@@ -147,8 +147,8 @@ h2{
 /* Bagian Ketiga */
 .kolom_2{
     float: left;
-    width: 450px;
-    margin: 0 15px;
+    width: 600px;
+    margin: 0 20px;
 }
 
 #ketiga h2{
@@ -178,9 +178,9 @@ input[type="submit"]:hover{
     cursor: pointer;
 }
 
-#ketiga iframe{
+/* #ketiga iframe{
     max-width: 450px;
-}
+} */
 
 #footer{
     background-color: #0074b9;

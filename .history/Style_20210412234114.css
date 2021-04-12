@@ -153,39 +153,14 @@ h2{
 
 #ketiga h2{
     text-align: center;
-    color: black;
+    color: #0074b9
 }
 
 #ketiga input, #ketiga textarea{
     display: block;
-    width: 100%;
+    width: 100px;
     height: 30px;
     margin-bottom: 12px;
-    border: 2px solid #0074b9;
-}
-
-#ketiga textarea{
-    height: 130px;
-}
-
-input[type="submit"]{
-    background-color: #0074b9;
-    color: white;
-}
-
-input[type="submit"]:hover{
-    background-color: #00a2ff;
-    cursor: pointer;
-}
-
-#ketiga iframe{
-    max-width: 450px;
-}
-
-#footer{
-    background-color: #0074b9;
-    margin: 0 auto;
-    text-align: center;
-    padding: 10px 0;
+    border: 2px solid ;
 }
 
