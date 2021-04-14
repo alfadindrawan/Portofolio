@@ -113,10 +113,12 @@ h2{
     height: 250px;
     border-radius: 50%;
     margin-bottom: 20px;
+
 }
 
 .gambar_karya{
     position: relative;
+
 }
 
 .gambar_karya p{
@@ -139,7 +141,7 @@ h2{
 }
 
 .deskripsi{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 /* Bagian Ketiga */
@@ -233,7 +235,7 @@ input[type="submit"]:hover,
     text-align: center;
 }
 
-#deskripsi_gambar{
+.deskripsi{
     font-size: 20px;
     text-align: justify;
 }
