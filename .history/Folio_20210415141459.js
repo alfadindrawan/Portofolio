@@ -31,11 +31,8 @@ function validasi(form){
         if(form[i].value.trim().length <= 0){
 
             switch (i) {
-                    case 0: errortext = 'Nama';
-                    break;
-                    case 1: errortext = 'Email';
-                    break;
-                    case 2: errortext = 'Pesan';
+                case 0: errortext
+                    
                     break;
             
                 default:
@@ -44,7 +41,7 @@ function validasi(form){
 
             if(form[i].nextElementSibling.className != 'error'){
             form[i].style.borderColor = 'red';
-            form[i].insertAdjacentHTML('afterend', "<div class='error'>"+errortext+" Tidak boleh kosong</div>");
+            form[i].insertAdjacentHTML('afterend', "<div class='error'>"+errortext+"Tidak boleh kosong</div>");
             }
             
             terima = false;

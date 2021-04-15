@@ -25,26 +25,14 @@ return false;
 
 function validasi(form){
     let terima = true;
-    let errortext = "";
+    let errortext = ""
 
     for(i=0; i<3; i++){
         if(form[i].value.trim().length <= 0){
 
-            switch (i) {
-                    case 0: errortext = 'Nama';
-                    break;
-                    case 1: errortext = 'Email';
-                    break;
-                    case 2: errortext = 'Pesan';
-                    break;
-            
-                default:
-                    break;
-            }
-
             if(form[i].nextElementSibling.className != 'error'){
             form[i].style.borderColor = 'red';
-            form[i].insertAdjacentHTML('afterend', "<div class='error'>"+errortext+" Tidak boleh kosong</div>");
+            form[i].insertAdjacentHTML('afterend', "<div class='error'>"+errortext+"Tidak boleh kosong</div>");
             }
             
             terima = false;

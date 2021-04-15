@@ -44,7 +44,7 @@ function validasi(form){
 
             if(form[i].nextElementSibling.className != 'error'){
             form[i].style.borderColor = 'red';
-            form[i].insertAdjacentHTML('afterend', "<div class='error'>"+errortext+" Tidak boleh kosong</div>");
+            form[i].insertAdjacentHTML('afterend', "<div class='error'>"+errortext+"Tidak boleh kosong</div>");
             }
             
             terima = false;

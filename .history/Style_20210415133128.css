@@ -24,6 +24,7 @@ img{
     background: url(G:/Project/Assets/Office-Desk-SplitShire-3D-0008.jpg) no-repeat;
     background-size: cover;
     height: 650px;
+    /* padding-top: 20px; */
 }
 
 .konten{
@@ -98,7 +99,7 @@ img{
     color: black;
     text-align: center;
     padding-bottom: 25px;
-    /* height: 500px; */
+    height: 480px;
 }
 
 h2{
@@ -180,11 +181,6 @@ input[type="submit"]:hover,
 #ketiga iframe{
     max-width: 450px;
     height: 268px;
-}
-
-.error{
-    color: red;
-    margin-top: -12px;
 }
 
 /* Bagian Folio */

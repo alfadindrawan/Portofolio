@@ -182,11 +182,6 @@ input[type="submit"]:hover,
     height: 268px;
 }
 
-.error{
-    color: red;
-    margin-top: -12px;
-}
-
 /* Bagian Folio */
 #header{
     padding-top: 20px;
