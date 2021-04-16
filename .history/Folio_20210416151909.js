@@ -80,10 +80,10 @@ function sesudah(){
     target_gambar.src = array_gambar[penomoran].getAttribute('src');
 }
 
-function sebelum(){
-    penomoran -= 1;
-    if(penomoran < 0) {
-        penomoran = 3;
+function sebel(){
+    penomoran += 1;
+    if(penomoran > 3) {
+        penomoran = 0;
     }
     target_gambar.src = array_gambar[penomoran].getAttribute('src');
 }

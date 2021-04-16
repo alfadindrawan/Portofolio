@@ -81,8 +81,8 @@ function sesudah(){
 }
 
 function sebelum(){
-    penomoran -= 1;
-    if(penomoran < 0) {
+    penomoran += 1;
+    if(penomoran > 0) {
         penomoran = 3;
     }
     target_gambar.src = array_gambar[penomoran].getAttribute('src');

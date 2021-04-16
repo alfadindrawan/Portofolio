@@ -63,27 +63,9 @@ function validasi(form){
 
 // Perpindahan Galeri
 
-let hasil_karya = document.getElementById('target_gambar');
-let array_gambar       = document.getElementById('karya_lain').children;
-let penomoran   = 0;
+let hasil_karya = document.getElementById('target_gambar')
+let array       = documen
 
 function pindah_gambar(gambar){
     hasil_karya.src = gambar.getAttribute('src');
-    penomoran = gambar.className;
-}
-
-function sesudah(){
-    penomoran += 1;
-    if(penomoran > 3) {
-        penomoran = 0;
-    }
-    target_gambar.src = array_gambar[penomoran].getAttribute('src');
-}
-
-function sebelum(){
-    penomoran -= 1;
-    if(penomoran < 0) {
-        penomoran = 3;
-    }
-    target_gambar.src = array_gambar[penomoran].getAttribute('src');
 }
