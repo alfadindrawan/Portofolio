@@ -4,6 +4,7 @@
     font-family: 'Acme', sans-serif;
     /* font-family: 'Montserrat', sans-serif; */
     font-weight: normal;
+    max-width: 100% !important;
 }
 
 a{
@@ -32,12 +33,13 @@ img{
 }
 
 .kolom_3{
-    width: 300px;
+    width: 31%; 
+    /* 300/960 *100 */
     float: left;
 }
 
 .tengah{
-    margin: 0 30px;
+    margin: 0 3%;
 }
 
 .clear{
@@ -145,8 +147,8 @@ h2{
 /* Bagian Ketiga */
 .kolom_2{
     float: left;
-    width: 450px;
-    margin: 0 15px;
+    width: 46%;
+    margin: 0 1.5%;
 }
 
 #ketiga h2{
@@ -244,15 +246,16 @@ input[type="submit"]:hover,
 }
 
 #karya_lain{
-    width: 600px;
+    width: 800px;
     margin: 50px auto 0 auto;
 }
 
 #karya_lain img{
     float: left;
     display: block;
-    width: 140px;
-    margin-left: 10px;
+    width: 180px;
+    margin: 0 10px;
+    cursor: pointer;
 }
 
 /* Bagian Footer */
@@ -261,6 +264,27 @@ input[type="submit"]:hover,
     margin: 50px auto 0 auto;
     text-align: center;
     padding: 10px 0;
+}
+
+/* Responsive Website */
+@media only screen and (max-width: 1024px){
+    #box_1{
+        font-size: 24px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    .gambar_karya p{
+        position: static;
+        margin: 0 auto;
+        display: block;
+        height: auto;
+        color: black;
+        background-color: transparent;
+        line-height: normal;
+    }
 }
 
 
