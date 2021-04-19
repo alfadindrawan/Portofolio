@@ -285,6 +285,52 @@ input[type="submit"]:hover,
         background-color: transparent;
         line-height: normal;
     }
+
+    #pertama{
+        height: auto;
+    }
+
+    #logo{
+        width: 60px;
+        margin: 0 30px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 500px){
+    .kolom_3,
+    .kolom_2{
+        width: 90%;
+        float: none;
+        margin: 0 auto;
+    }
+
+    #box_1{
+        font-size: 12px;
+    }
+
+    h2{
+        font-size: 15px;
+    }
+
+    #kedua img{
+        width: 200px;
+        height: 200px;
+    }
+
+    #kedua p{
+        font-size: 18px;
+    }
+
+    #kedua .kolom_3{
+        margin: 10px auto;
+    }
+
+    #logo{
+        width: 50px;
+        margin: 0 30px;
+    }
 }
 
 
