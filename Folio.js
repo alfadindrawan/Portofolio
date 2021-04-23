@@ -64,7 +64,7 @@ function validasi(form){
 // Perpindahan Galeri
 
 let hasil_karya = document.getElementById('target_gambar');
-let array_gambar= document.getElementById('karya_lain').children;
+let array_gambar= document.getElementById('pindah_karya').children;
 let penomoran   = 0;
 
 function pindah_gambar(gambar){
@@ -74,12 +74,18 @@ function pindah_gambar(gambar){
 
 function sesudah(){
     penomoran += 1;
-    if(penomoran > 2) penomoran = 0;
+    if(penomoran > 3) penomoran = 0;
     hasil_karya.src = array_gambar[penomoran].getAttribute("src");
 }
 
 function sebelum(){
     penomoran -= 1;
-    if(penomoran < 0) penomoran = 2;
+    if(penomoran < 0) penomoran = 3;
     hasil_karya.src = array_gambar[penomoran].getAttribute("src");
+}
+
+// Toggle Menu
+function ToggleMenu(){
+    let menu = document.getElementById('menu_konten')
+    menu.classList.toggle('menu_open')
 }

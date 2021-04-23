@@ -18,7 +18,14 @@
         <div id="header">
             <img src="G:/Project/Assets/discord.png" alt="" id="logo">
             <div id="menu">
-                <div class="konten">
+                <!-- <div id="ikon_menu" onclick="ToggleMenu()">
+                    <img src="G:/Project/Assets/menu.png" alt="" >
+                </div> -->
+                <img src="G:/Project/Assets/square.png" alt="" id="ikon_menu" onclick="ToggleMenu()">
+                <div id="menu_opsi" onclick="ToggleMenu()">
+                    Menu
+                </div>
+                <div class="konten" id="menu_konten">
                     <a href="#pertama" class="kolom_3">Home</a>
                     <a href="#kedua" class="kolom_3 tengah" onclick="return SmoothScroll('kedua')">Karya</a>
                     <a href="#ketiga" class="kolom_3" onclick="return SmoothScroll('ketiga')">Kontak</a>
@@ -31,7 +38,7 @@
         <div class="konten">
             <div id="box_1">
                 <h1>SELAMAT DATANG <br> DI WEBSITE KAMI</h1>
-                <a href="#kedua">Lihat Karya</a>
+                <a href="#kedua" onclick="return SmoothScroll('kedua')">Lihat Karya</a>
             </div>
         </div>
     </div>

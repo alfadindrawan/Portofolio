@@ -14,19 +14,26 @@
 </head>
 <body>
         <div id="header">
-            <img src="G:/Project/Assets\discord.png" alt="" id="logo">
+            <img src="G:/Project/Assets/discord.png" alt="" id="logo">
             <div id="menu">
-                <div class="konten">
+                <!-- <div id="ikon_menu" onclick="ToggleMenu()">
+                    <img src="G:/Project/Assets/menu.png" alt="" >
+                </div> -->
+                <img src="G:/Project/Assets/square.png" alt="" id="ikon_menu" onclick="ToggleMenu()">
+                <div id="menu_opsi" onclick="ToggleMenu()">
+                    Menu
+                </div>
+                <div class="konten" id="menu_konten">
                     <a href="Index.html" class="kolom_3">Home</a>
-                    <a href="#kedua" class="kolom_3 tengah">Karya</a>
-                    <a href="#ketiga" class="kolom_3">Kontak</a>
+                    <a href="#kedua" class="kolom_3 tengah" onclick="return SmoothScroll('kedua')">Karya</a>
+                    <a href="#ketiga" class="kolom_3" onclick="return SmoothScroll('ketiga')">Kontak</a>
                 </div>
             </div>
         </div>
 
         <div style="margin-top: 50px;"></div>
         <div class="konten">
-           <div class="panah" onclick="sebelum()"> < </div>
+           <div class="panah panah_kiri" onclick="sebelum()"> < </div>
                 <div id="karya_box">
                     <div id="karya_box_kiri">
                         <h3>Judul Gambar</h3>
@@ -40,16 +47,16 @@
                         <img src="G:/Sertifikat/Dicoding/Build your Web App with Firebase Certificate.png" alt="" id="target_gambar">
                     </div>
                 </div>
-            <div class="panah" onclick="sesudah()"> > </div>
+            <div class="panah panah_kanan" onclick="sesudah()"> > </div>
                 
             
             <div class="clear"></div>
 
-            <div id="karya_lain">
+            <div id="pindah_karya">
                 <img src="G:/Sertifikat/Dicoding/Build your Web App with Firebase Certificate.png" alt=""   onclick="pindah_gambar(this)" class="0">
                 <img src="G:/Sertifikat/Dicoding/Getting Started With Android Studio.png" alt=""            onclick="pindah_gambar(this)" class="1">
                 <img src="G:/Sertifikat/Dicoding/Introduction to Firebase Certificate.png" alt=""           onclick="pindah_gambar(this)" class="2">
-                <!-- <img src="G:/Sertifikat/Dicoding/Cyber.png" alt=""                                          onclick="pindah_gambar(this)" class="3"> -->
+                <img src="G:/Sertifikat/Dicoding/Cyber.png" alt=""                                          onclick="pindah_gambar(this)" class="3">
             </div>   
         </div>    
 
